@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('../fonts/Norse-Bold.woff2') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: sans-serif;
     background-color: #f4f5f7;
