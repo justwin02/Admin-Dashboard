@@ -70,6 +70,10 @@ body {
     width: 20px;
 }
 
+.sidebar-element.sidebar-spacer{
+    margin-bottom: 1.25rem;
+}
+
 /* Header */
 .header{
     grid-area: header;
