@@ -41,9 +41,27 @@ body {
 }
 
 .sidebar .sidebar-icon {
-    width: 32px;
-    height: 32px;
+    width: 40px;
     fill: white;
+}
+
+.sidebar h1{
+    font-size: 1.3rem;
+}
+
+.sidebar-element{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.sidebar-element .sidebar-icon{
+    width: 20px;
 }
 
 /* Header */
