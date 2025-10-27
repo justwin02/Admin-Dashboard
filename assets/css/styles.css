@@ -29,7 +29,7 @@ body {
 /* Sidebar */
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(115, 179, 221);
+    background-color: #1992d4;
 }
 
 .sidebar .sidebar-brand {
