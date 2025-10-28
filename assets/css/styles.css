@@ -107,6 +107,28 @@ body {
     padding: 10px;
 }
 
+.user-info-small{
+    justify-self: end;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 2rem
+}
+
+#notifications-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.profile-picture-small{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
 /* Main Content */
 .main-content{
     grid-area: main;
