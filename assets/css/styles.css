@@ -81,8 +81,33 @@ body {
     position: relative;
     box-shadow: 0 6px 10px -6px rgba(0, 0, 0, 0.25);
     overflow: visible;
+    padding: 10px 20px 0 20px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 50px 1fr;
 }
 
+.searchbar .search-icon{
+    width: 25px;
+}
+
+.searchbar{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25px 1fr;
+    column-gap: 15px;
+}
+
+#input-search{
+    width : 67%;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 999px;
+    height: 30px;
+    padding: 10px;
+}
+
+/* Main Content */
 .main-content{
     grid-area: main;
     background-color: #e2e8f0;
