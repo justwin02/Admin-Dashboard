@@ -207,6 +207,7 @@ body {
     align-items: start;
     position: relative;
     transition: transform 150ms ease, box-shadow 150ms ease;
+    border-left: 10px solid #f0b429;
 }
 
 .card:hover{
