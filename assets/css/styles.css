@@ -249,6 +249,7 @@ body {
     fill: #1e40af;
 }
 
+/* Announcements */
 .announcements{
     grid-column: 2 / 3;
     display: grid;
@@ -292,16 +293,48 @@ body {
 }
 
 .annoucement-text{
-    font-size: 0.85rem;            /* slightly smaller */
+    font-size: 0.85rem;            
     color: #475569;
     white-space: normal;
     word-break: break-word;
 }
 
+/* Trending */
 .trending{
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0.5rem;
+    background: transparent;
+    padding: 0;
+    align-items: start;
+}
+
+.trending > h2{
+    margin: 0;
+    padding-left: 4px;
+}
+
+.trending-username {
+    font-size: .8em;
+}
+
+.trending-row {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.trending-box {
     grid-row: 2 / 3;
     background-color: white;
-    padding: 1rem;
     border-radius: 10px;
+    padding: 0.75rem;
+    box-shadow: 0 8px 20px rgba(2,6,23,0.04);
+    display: grid;
+    gap: 0.75rem;
+    max-height: 60vh;
+    overflow-y: auto;
+    align-items: start;
 }
