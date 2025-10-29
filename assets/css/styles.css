@@ -109,11 +109,10 @@ body {
 }
 
 .user-info-small{
-    justify-self: end;
-    align-self: center;
     display: flex;
+    justify-self: end;
     align-items: center;
-    gap: 2rem
+    gap: 2rem;
 }
 
 #notifications-icon{
@@ -146,6 +145,24 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     font-weight: bold;
+}
+
+.header-buttons{
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    gap: 1rem;
+}
+
+.header-button{
+    background-color: #1992d4;
+    padding: 10px 20px;
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    min-width: 75px;
 }
 
 /* Main Content */
